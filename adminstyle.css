@@ -1,0 +1,39 @@
+.admin-content form {
+  max-width: 500px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-content textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.scheme-card {
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 12px;
+  margin: 12px auto;
+  max-width: 500px;
+  border-radius: 6px;
+}
+
+.scheme-card h4 {
+  margin: 0;
+  color: green;
+}
+
+.scheme-card p {
+  margin: 5px 0 10px;
+}
+
+.scheme-card button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
