@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Dashboard - Sarkari Yojana</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">🛡️ <strong>Admin Dashboard</strong></div>
+  </header>
+
+  <section class="admin-content">
+    <h2>Manage Government Schemes</h2>
+
+    <form id="addSchemeForm">
+      <input type="text" id="title" placeholder="Scheme Title" required />
+      <textarea id="description" placeholder="Scheme Description" required></textarea>
+      <button type="submit">➕ Add Scheme</button>
+    </form>
+
+    <h3>📋 All Schemes</h3>
+    <div id="schemesList">Loading schemes...</div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
